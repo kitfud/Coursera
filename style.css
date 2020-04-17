@@ -1,0 +1,142 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+
+ #chicken {
+  position: relative;
+  font-family: Helvetica;
+  color: black;
+ padding:10px 10px 10px 10px;
+ text-align: justify;
+
+
+
+}
+.chickenTitle{
+  position:absolute;
+   width: auto;
+  height: auto;
+  padding:10px 10px 10px 10px;
+  top: 0px;
+  right: 0px;
+  font-family: Helvetica;
+  color: black;
+  background-color: pink;
+   border: 1px solid black;
+
+}
+ #beef{
+  position: relative;
+  font-family: Helvetica;
+  color: black;
+ padding:10px 10px 10px 10px;
+ text-align: justify;
+}
+
+.beefTitle{
+  position:absolute;
+   width: auto;
+  height: auto;
+  padding:10px 10px 10px 10px;
+  top: 0px;
+  right: 0px;
+  font-family: Helvetica;
+  color: black;
+  background-color: red;
+   border: 1px solid black;
+
+}
+
+ #sushi {
+ position: relative;
+  font-family: Helvetica;
+  color: black;
+ padding:10px 10px 10px 10px;
+ text-align: justify;
+}
+.sushiTitle{
+  position:absolute;
+   width: auto;
+  height: auto;
+  padding:10px 10px 10px 10px;
+  top: 0px;
+  right: 0px;
+  font-family: Helvetica;
+  color: black;
+  background-color: gold;
+   border: 1px solid black;
+
+}
+
+/* Simple Responsive Framework. */
+.row {
+  height:auto;
+  width: 100%;
+
+}
+
+/********** Large devices only **********/
+@media (min-width: 922px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    position:relative;
+    float: left;
+    border: 1px solid black;
+    background-color: lightgray;
+    padding:10px;
+    margin: 10px;
+  
+
+
+
+
+ 
+  }
+ 
+  .col-lg-4 {
+    width: 30.33%;
+
+  }
+ 
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 921px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+    border: 1px solid black;
+    position:relative;
+    background-color: lightgray;
+ padding:20px;
+ margin:10px;
+   
+  }
+ 
+  .col-md-6 {
+    width: 47%;
+  }
+
+  .col-md-12 {
+    width: 97%;
+  }
+}
+/********** Small devices only **********/
+@media (max-width: 768px) {
+  .col-sd-1, .col-sd-2, .col-sd-3, .col-sd-4, .col-sd-5, .col-sd-6, .col-sd-7, .col-sd-8, .col-sd-9, .col-sd-10, .col-sd-11, .col-sd-12 {
+    float: left;
+    border: 1px solid black;
+    position:relative;
+    background-color: lightgray;
+  padding:20px;
+  margin:10px;
+  }
+  
+  .col-sd-12 {
+    width: 97%;
+  }
+}
