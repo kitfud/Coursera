@@ -1,3 +1,6 @@
+The very beginning of my intro to web development with HTML/CSS, Johns Hopkins University via Coursera. Github pages shows a little demo of the bootstrap columns and boxes we styled up. 
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/kitfud/CourseraTest/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
